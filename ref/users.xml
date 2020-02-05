@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+    <user>
+        <username>Kit</username>
+        <email>kit.wallace@gmail.com</email>
+        <password>9a502f5ea795a43d1e1397e6c9c54670</password>
+        <date-joined>2018-01-29Z</date-joined>
+    </user>
+    <user>
+        <username>NickPlant</username>
+        <email>nick@timmisplant.com</email>
+        <password>8ba46c932e83abf345d553f80a364b13</password>
+        <date-joined>2018-03-01Z</date-joined>
+    </user>
+    <user>
+        <username>richard.buist@blueyonder.co.uk</username>
+        <email>richard.buist@blueyonder.co.uk</email>
+        <password>0b817b105361d87b3f5756081b985bc3</password>
+        <date-joined>2018-04-22+01:00</date-joined>
+    </user>
+    <user>
+        <username>Chris</username>
+        <email>aremiti36@yahoo.com</email>
+        <password>21aa7f95c497209c3411dc50e966c22e</password>
+        <date-joined>2018-07-21+01:00</date-joined>
+    </user>
+</users>

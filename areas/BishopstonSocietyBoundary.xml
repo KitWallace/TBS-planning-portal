@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<area>
+    <name>BishopstonSocietyBoundary</name>
+    <polygon>
+        <point latitude="51.47026694908595" longitude="-2.593813153249376"/>
+        <point latitude="51.46999743209295" longitude="-2.593554613279733"/>
+        <point latitude="51.47410165678394" longitude="-2.599113450644079"/>
+        <point latitude="51.47600616034332" longitude="-2.602468623260217"/>
+        <point latitude="51.47728311449603" longitude="-2.604944693865438"/>
+        <point latitude="51.47830279338825" longitude="-2.60753108853779"/>
+        <point latitude="51.48098399439572" longitude="-2.605078798611635"/>
+        <point latitude="51.48269749345234" longitude="-2.600880145829285"/>
+        <point latitude="51.48397379864345" longitude="-2.598466181307391"/>
+        <point latitude="51.48466230052015" longitude="-2.596904657807576"/>
+        <point latitude="51.48569665906079" longitude="-2.595107731920279"/>
+        <point latitude="51.48633800182007" longitude="-2.593070189124743"/>
+        <point latitude="51.48798053952672" longitude="-2.590660230859635"/>
+        <point latitude="51.48667295294184" longitude="-2.5855183813426"/>
+        <point latitude="51.48371269090973" longitude="-2.586751508240802"/>
+        <point latitude="51.48195515094275" longitude="-2.584196844100951"/>
+        <point latitude="51.48059763593734" longitude="-2.581920584347964"/>
+        <point latitude="51.47965427327994" longitude="-2.58093600350449"/>
+        <point latitude="51.47811900431463" longitude="-2.57996790607254"/>
+        <point latitude="51.47690012210663" longitude="-2.580130947509042"/>
+        <point latitude="51.47557164146925" longitude="-2.580718645289783"/>
+        <point latitude="51.47429551661519" longitude="-2.581362526141988"/>
+        <point latitude="51.47325000041894" longitude="-2.581828789597763"/>
+        <point latitude="51.47279533219372" longitude="-2.581752176793632"/>
+        <point latitude="51.47224680257011" longitude="-2.582887362779434"/>
+        <point latitude="51.47112279269336" longitude="-2.585111236692246"/>
+        <point latitude="51.47007826181942" longitude="-2.584891638427014"/>
+        <point latitude="51.46935290290845" longitude="-2.586216935651577"/>
+        <point latitude="51.46890204230028" longitude="-2.58841213076909"/>
+        <point latitude="51.46917635771113" longitude="-2.590161819243066"/>
+        <point latitude="51.46965170472514" longitude="-2.592872241303389"/>
+    </polygon>
+</area>

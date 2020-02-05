@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div>
+    <p>Welcome to the Bishopston Planning Portal, our innovative interactive tool presenting details
+        of the main planning applications in our area lodged recently with Bristol City Council as
+        the local planning authority. </p>
+    <h3>Map</h3>
+    <ul>
+        <li>The Google map shows (crudely) the boundaries of the Bishopston area we typically work
+            in, though some planning applications outside the immediate area that impinge on us also
+            appear. </li>
+        <li>Click on a pin, using the legend provided, to find out the address and basic details of
+            any planning application. </li>
+        <li>You’ll see The Bishopston Society’s summary comments and our response to the
+            application. </li>
+        <li>You’ll also see the application reference number, which is linked to the application
+            details (see below). </li>
+    </ul>
+    <h3>List</h3>
+    <ul>
+        <li>Recent planning applications are listed here in tabular format, initially in descending order of validation date, ie the date the application was checked and validated by BCC </li>
+        <li>Applications can be sorted into a different order using the up/down buttons in each
+            column heading. </li>
+        <li>The application reference number is again linked to the application details. </li>
+    </ul>
+    <h3>Search</h3>
+    <ul>
+        <li>If the application you are looking for is not visible via Map or List, use the Search
+            function to get a shorter list.</li>
+    </ul>
+    <h3>Application details </h3>
+    <ul>
+        <li>Lots more details are provided on the application details screen, including a close-up
+            map, the current status of the application, our comments, and those made by the public. </li>
+        <li>You can use the link provided to reach all the official documents for the application on
+            Bristol City Council’s web site. You can also submit your own comments via this web
+            site. </li>
+    </ul>
+    <h3>Scope and maintenance</h3>
+    <ul>
+        <li>This portal covers all planning applications in our area lodged with Bristol City
+            Council since October 2017. </li>
+        <li>The data is updated every day.</li>
+    </ul>
+    <h3>About TBS comments &amp; recommendations</h3>
+    <ul>
+        <li>The Bishopston Society’s policy on planning applications is documented here and
+            reviewed/updated from time to time by the committee, with routine decision-making
+            delegated to our planning team. </li>
+        <li>We also consult our membership and disseminate our policy via our web site, newsletter,
+            email updates, social media channels, etc., especially in response to changes in the
+            policy environment, and when larger developments crop up. </li>
+    </ul>
+    <h3>About this portal </h3>
+    <ul>
+        <li>This portal has been developed by&#160;<a target="_blank" class="external" href="http://kitwallace.co.uk">Chris Wallace</a> as part of a project to analyse
+            Bristol City Council planning applications. </li>
+        <li>The data presented is drawn primarily from Bristol City Council’s <a target="_blank" class="external" href=" http://planningonline.bristol.gov.uk/online-applications/">searchable planning database</a> , with value-added content added by the TBS team. </li>
+        <li>Technically-minded readers may wish to know that it uses&#160;the <a href="http://existdb.org"> eXist open source XML database</a> and is programmed in
+            XQuery and Javascript. Issues and eventually code reside on <a target="_blank" class="external" href="https://github.com/KitWallace/planningapplications">Github</a>. </li>
+    </ul>
+    <h3>Feedback</h3>
+    <ul>
+        <li>Comments and feedback on this portal are welcome via <a href="http://bishopstonsociety.org.uk/about/contactus">our contact form</a>.</li>
+    </ul>
+    <h3> Disclaimer</h3>
+    <ul>
+        <li>Whilst we have confidence in the software and data used in the construction of this
+            portal, we offer no warranty over the veracity or accuracy of the information provided,
+            and are not liable for any errors or inaccuracies you may encounter. Our standard legal
+            notices and policies may be viewed at
+            http://bishopstonsociety.org.uk/legal-notices.</li>
+    </ul>
+    <h3>Admin</h3>
+    <ul>
+        <li>
+            <a href="admin/menu">Admin functions </a>
+        </li>
+    </ul>
+</div>
