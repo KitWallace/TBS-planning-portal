@@ -8,7 +8,7 @@ declare variable $pa:base := "http://pp.bishopstonsociety.org.uk";
 declare variable $pa:dbroot := "/db/apps/tbs/"; 
 declare variable $pa:root := "/Planning/"; 
 (: without REST declare variable $pa:root := "?_path=";   :)
-declare variable $pa:googlekey  := "AIzaSyB-sB9Nwqkh-imfUd1-w3_lz4KFhL-_VqU";
+declare variable $pa:googlekey  := "google-mapp-api-key";
 declare variable $pa:bcc-path := "https://planningonline.bristol.gov.uk";
 declare variable $pa:months :=
 	("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct","Nov", "Dec");
