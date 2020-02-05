@@ -4,10 +4,10 @@ import module namespace content="http://exist-db.org/xquery/contentextraction"
     at "java:org.exist.contentextraction.xquery.ContentExtractionModule";
 declare namespace h = "http://www.w3.org/1999/xhtml";
 declare variable $pa:base := "http://pp.bishopstonsociety.org.uk";
-(: declare variable $pa:base := "http://kitwallace.co.uk/tbs/pa-v2.xq"; :)
+(: without REST declare variable $pa:base := "http://kitwallace.co.uk/tbs/pa.xq"; :)
 declare variable $pa:dbroot := "/db/apps/tbs/"; 
 declare variable $pa:root := "/Planning/"; 
-(: declare variable $pa:root := "?_path=";   :)
+(: without REST declare variable $pa:root := "?_path=";   :)
 declare variable $pa:googlekey  := "AIzaSyB-sB9Nwqkh-imfUd1-w3_lz4KFhL-_VqU";
 declare variable $pa:bcc-path := "https://planningonline.bristol.gov.uk";
 declare variable $pa:months :=
@@ -72,7 +72,7 @@ return
          }
    else $response/status
  else ()
- };
+};
  
 declare function pa:span($page,$name) {
     normalize-space($page//h:span[@class=$name])
@@ -181,6 +181,7 @@ declare function pa:bcc-link($keyval,$page) {
     concat ($pa:bcc-path,"/online-applications/applicationDetails.do?activeTab=",$page,"&amp;keyVal=",$keyval)
 };
 (: https://planningonline.bristol.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=PCIM9ZDNII700 :)
+
 declare function pa:gmap-link($address) {
    concat ("https://www.google.co.uk/maps/place/",replace($address," ","+"))
    };
@@ -271,8 +272,8 @@ return
              <td><textarea name="comment" rows="20" cols="100">
                 {$local/comment/*}
              </textarea></td></tr>
-         <tr><th>Location override</th><td>Latitude <input type="text" name="latitude" size="12" value="{$local/latitude}"/>
-                                  Longitude <input type="text" name="longitude" size="12" value="{$local/longitude}" /> 
+         <tr><th>Location override</th><td>Latitude <input type="text" name="latitude" size="12" value="{$summary/latitude}"/>
+                                  Longitude <input type="text" name="longitude" size="12" value="{$summary/longitude}" /> 
          </td></tr>
          <tr><th>TBS position</th>
              <td> 
@@ -873,7 +874,7 @@ declare function pa:map-page() {
             Bristol City Council planning applications. </li>
         <li>The data presented is drawn primarily from Bristol City Council’s <a target="_blank" class="external" href=" http://planningonline.bristol.gov.uk/online-applications/">searchable planning database</a> , with value-added content added by the TBS team. </li>
         <li>Technically-minded readers may wish to know that it uses&#160;the <a href="http://existdb.org"> eXist open source XML database</a> and is programmed in
-            XQuery and Javascript. Issues and eventually code reside on <a target="_blank" class="external" href="https://github.com/KitWallace/planningapplications">Github</a>. </li>
+            XQuery and Javascript. Issues and eventually code reside on <a target="_blank" class="external" href="https://github.com/KitWallace/TBS-planning-portal">Github</a>. </li>
     </ul>
     <h3>Feedback</h3>
     <ul>
